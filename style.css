@@ -83,13 +83,15 @@ body{
 .contenedorbloques{
     font-size: 0;
 }
-.bloques {
+.bloques1 {
+  margin-top: 5vh;
+  margin-left: 10vh;
   display: inline-block;
   background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(imagenes/PalestineAndTransjordan-es.svg.png);
   background-repeat: none;
   background-size: cover;
   width: 45vh;
-  height: 25vh;
+  height: 35vh;
   background-color:rgba(0, 0, 0, 0.5);
   text-align: center;
   line-height: 100px;
@@ -97,11 +99,75 @@ body{
   font-family: "Bebas Neue", serif;
   font-weight: 400;
   box-sizing: border-box;
-  border: 1px solid #fff;
-  text-decoration: none;
-  color:azure
+  border: 1px solid rgb(180, 216, 195);
 }
-.bloques:hover{
+.bloques2 {
+  margin-top: 5vh;
+  margin-left: 10vh;
+  display: inline-block;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(imagenes/jordania\ lugar.jpeg);
+  background-repeat: none;
+  background-size: cover;
+  width: 45vh;
+  height: 35vh;
+  background-color:rgba(0, 0, 0, 0.5);
+  text-align: center;
+  line-height: 100px;
+  font-size: 16px;
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  border: 1px solid rgb(180, 216, 195);
+}
+.bloques3 {
+  margin-top: 5vh;
+  margin-left: 10vh;
+  display: inline-block;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(imagenes/jordania\ gente.jpg);
+  background-repeat: none;
+  background-size: cover;
+  width: 45vh;
+  height: 35vh;
+  background-color:rgba(0, 0, 0, 0.5);
+  text-align: center;
+  line-height: 100px;
+  font-size: 16px;
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  border: 1px solid rgb(180, 216, 195);
+}
+.contenedorbloques a{
+    text-decoration: none;
+    color:azure;
+}
+.bloques1:hover{
     transform: scale(1.1);
     transition: 0.2s;
+}
+.bloques2:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.bloques3:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.subtitulo{
+    color:azure;
+      text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
+h3{
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+html {
+  scroll-behavior: smooth;
 }
